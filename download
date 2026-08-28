@@ -1,0 +1,26 @@
+# results and checkpoints (regenerate by running the scripts)
+results/
+*.pkl
+*.pt
+*.bak
+
+# generated figures — the ones committed live in figures/
+*.png
+*.pdf
+!figures/*.png
+!figures/*.pdf
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+env/
+*.egg-info/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
