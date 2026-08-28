@@ -17,6 +17,8 @@ different closures fit the observations equally well. A deterministic model
 picks one and says nothing about the others; this one reports where the data
 constrain the closure and where they do not.
 
+**Note that this Readme file was written using Claude Opus 5: If there are any challenges in implementation: kindly contact kudva.7@osu.edu**
+
 ---
 
 ## What the model recovers
