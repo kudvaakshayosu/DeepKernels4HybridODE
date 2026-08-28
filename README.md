@@ -1,6 +1,6 @@
 # Probabilistic Hybrid Modeling with Variational Deep Kernel Learning
 
-Reference implementation for **"Scalable Probabilistic Hybrid Modeling in
+Reference implementation for **"Probabilistic Hybrid Modeling in
 Data-Scarce Regime via Integration of First-Principles ODEs with Variational
 Deep Kernel Learning."**
 
@@ -17,7 +17,7 @@ different closures fit the observations equally well. A deterministic model
 picks one and says nothing about the others; this one reports where the data
 constrain the closure and where they do not.
 
-**Note that this Readme file was written using Claude Opus 5: If there are any challenges in implementation: kindly contact kudva.7@osu.edu**
+**Note that this Readme file was written using Claude Opus 5: If there are any challenges in implementation, kindly contact kudva.7@osu.edu**
 
 ---
 
@@ -236,7 +236,7 @@ so regenerate all figures together.
 
 ```bibtex
 @article{kudva2026hybrid,
-  title   = {Scalable Probabilistic Hybrid Modeling in Data-Scarce Regime via
+  title   = {Probabilistic Hybrid Modeling in Data-Scarce Regime via
              Integration of First-Principles {ODE}s with Variational Deep
              Kernel Learning},
   author  = {Kudva, Akshay and Shah, Parth and Kim, Taehyun and Cho, Hangjun
