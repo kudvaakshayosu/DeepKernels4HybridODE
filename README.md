@@ -27,7 +27,7 @@ predictive mean against the true kinetics; the bottom row is the predictive
 standard deviation. Maroon points mark the states the training trajectories
 actually visited.
 
-![Recovered kinetic surfaces](figures/kinetic_surfaces_bioreactor_N5.png)
+![Recovered kinetic surfaces](kinetic_surfaces_bioreactor_N5.png)
 
 All four models look reasonable near the data. They differ in what they claim
 away from it. The BNN reports low uncertainty in regions its mean surface gets
@@ -40,7 +40,7 @@ The same comparison, scored: the shaded bands are the ±3σ function-level
 intervals, and the contour panels show the signed error *only where the true
 kinetics fall outside those bands*.
 
-![Spatial coverage of the uncertainty bands](figures/spatial_coverage_bioreactor_N5.png)
+![Spatial coverage of the uncertainty bands](spatial_coverage_bioreactor_N5.png)
 
 Coverage is 88% for DKL against 75% for the VGP and 51% for the BNN, and the
 uncovered regions are smaller and less structured.
