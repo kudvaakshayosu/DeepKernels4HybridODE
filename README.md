@@ -1,10 +1,10 @@
 # [Paper Title]
 
-**[Author 1], [Author 2], [Author 3]**
-*[Journal / Conference / arXiv], 2026*
+**Akshay Kudva, Parth Shah, Taehyun Kim, Hangjun Cho, Joseph Sang-Il Kwon**
+*Computers & Chemical Engineeering Journal, 2026*
 
-[![Paper](https://img.shields.io/badge/Paper-PDF-blue)]([PAPER_URL])
-[![arXiv](https://img.shields.io/badge/arXiv-XXXX.XXXXX-b31b1b)](https://arxiv.org/abs/XXXX.XXXXX)
+[![Paper](https://img.shields.io/badge/Paper-PDF-blue)]([https://www.sciencedirect.com/science/article/pii/S0098135426003881?via%3Dihub])
+
 
 This is the official code for the paper *[Paper Title]*. It reproduces every figure and table in the paper, including the appendix sensitivity studies.
 
@@ -170,12 +170,17 @@ Each script has a `STUDY_CONFIG` block and writes a figure, a CSV and a `.pkl` o
 If you use this code, please cite:
 
 ```bibtex
-@article{[citekey],
-  title   = {[Paper Title]},
-  author  = {[Last1], [First1] and [Last2], [First2] and [Last3], [First3]},
-  journal = {[Journal]},
-  year    = {2026},
-  doi     = {[DOI]}
+@article{Kudva2026,
+  title = {Probabilistic hybrid modeling in data-scarce regime via integration of first-principles ODEs with variational deep kernel learning},
+  ISSN = {0098-1354},
+  url = {http://dx.doi.org/10.1016/j.compchemeng.2026.109936},
+  DOI = {10.1016/j.compchemeng.2026.109936},
+  journal = {Computers \& Chemical Engineering},
+  publisher = {Elsevier BV},
+  author = {Kudva,  Akshay and Shah,  Parth and Kim,  Taehyun and Cho,  Hangjun and Kwon,  Joseph Sang-Il},
+  year = {2026},
+  month = Oct,
+  pages = {109936}
 }
 ```
 
