@@ -58,7 +58,7 @@ Two benchmarks are used, each with a single unknown scalar kinetic relation:
 Predictive mean (top) and predictive standard deviation (bottom) of each closure for the bioreactor, next to the true kinetics $`g(X, S)`$, with $`N = 5`$ trajectories and $`K = 5`$ measurements each. Maroon points are the states visited by the training trajectories. DKL captures how the rate depends on both biomass and substrate, keeps its uncertainty low where training data exist, and raises it where they don't.
 
 <p align="center">
-  <img src="figures/kinetic_surfaces.png" width="900" alt="Predictive mean and standard deviation of each closure compared with the true bioreactor kinetics">
+  <img src="figures/kinetic_surfaces_bioreactor_N5.png" width="900" alt="Predictive mean and standard deviation of each closure compared with the true bioreactor kinetics">
 </p>
 
 ### Uncertainty coverage (Fig. 4b)
@@ -66,7 +66,7 @@ Predictive mean (top) and predictive standard deviation (bottom) of each closure
 Top: a slice along the dashed diagonal of the state space, showing each model's mean and uncertainty band against the true kinetics. Bottom: the signed error $`g - \mu`$, drawn only where the true kinetics fall *outside* the $`\pm 3\sigma`$ band. Grey means the truth is covered. Panel titles give the percentage of the grid covered.
 
 <p align="center">
-  <img src="figures/spatial_coverage.png" width="900" alt="Diagonal slice with uncertainty bands, and maps of where each model's band misses the true kinetics">
+  <img src="figures/spatial_coverage_bioreactor_N5.png" width="900" alt="Diagonal slice with uncertainty bands, and maps of where each model's band misses the true kinetics">
 </p>
 
 ---
